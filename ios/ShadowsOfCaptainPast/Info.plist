@@ -21,7 +21,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>3</string>
+	<string>4</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>scotiabank</string>
@@ -55,12 +55,8 @@
 	</dict>
 	<key>NSCalendarsUsageDescription</key>
 	<string>This app uses the calendar to display and manage dates.</string>
-	<key>NSCameraUsageDescription</key>
-	<string>This app uses the camera to take a user avatar and photo to store in app private internal data set.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>To record audio files during video recording</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app uses the Photo Library to select a photo only.</string>
 	<key>NSUserTrackingUsageDescription</key>
@@ -78,8 +74,12 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
